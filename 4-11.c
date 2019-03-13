@@ -7,10 +7,13 @@ int main (){
 	puts("enter height:"); scanf("%d",&height);
 	
 	for(i=1;i<=height;i++){
-		for(j=1;j<=width;j++){
+		for(j=1;j<=width;j++)
+		{
 			putchar('*');
 		}
 		putchar('\n');
 	}
 	return 0;
 }
+
+
